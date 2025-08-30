@@ -6,43 +6,43 @@ const About = () => {
   const teamMembers = [
     {
       id: 1,
-      name: "Aarav Sharma",
-      role: "Full Stack Developer",
-      rollNumber: "B121001",
-      image: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png",
-      github: "https://github.com/aaravsharma",
-      linkedin: "https://linkedin.com/in/aaravsharma",
-      instagram: "https://instagram.com/aaravsharma"
+      name: "Sharan Suvarna",
+      role: "Btech IT",
+      rollNumber: "23IT1014",
+      image: "src/assets/person.jpg",
+      github: "https://github.com/",
+      linkedin: "https://linkedin.com/in/",
+      instagram: "https://instagram.com/"
     },
     {
       id: 2,
-      name: "Priya Patel", 
-      role: "ML Engineer",
-      rollNumber: "B121002",
-      image: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png",
-      github: "https://github.com/priyapatel",
-      linkedin: "https://linkedin.com/in/priyapatel", 
-      instagram: "https://instagram.com/priyapatel"
+      name: "Vishal Tilokani", 
+      role: "Btech IT",
+      rollNumber: "23IT1030",
+      image: "src/assets/person.jpg",
+      github: "https://github.com/",
+      linkedin: "https://linkedin.com/in/",
+      instagram: "https://instagram.com/"
     },
     {
       id: 3,
-      name: "Rohit Singh",
-      role: "Backend Developer",
-      rollNumber: "B121003", 
-      image: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png",
-      github: "https://github.com/rohitsingh",
-      linkedin: "https://linkedin.com/in/rohitsingh",
-      instagram: "https://instagram.com/rohitsingh"
+      name: "Vinit Yadav",
+      role: "Btech IT",
+      rollNumber: "23IT1037", 
+      image: "src/assets/person.jpg",
+      github: "https://github.com/",
+      linkedin: "https://linkedin.com/in/",
+      instagram: "https://instagram.com/"
     },
     {
       id: 4,
-      name: "Sneha Gupta",
-      role: "Frontend Developer", 
-      rollNumber: "B121004",
-      image: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png",
-      github: "https://github.com/snehagupta",
-      linkedin: "https://linkedin.com/in/snehagupta",
-      instagram: "https://instagram.com/snehagupta"
+      name: "Vedant Gadhave",
+      role: "Btech IT",
+      rollNumber: "23IT1062",
+      image: "src/assets/person.jpg",
+      github: "https://github.com/",
+      linkedin: "https://linkedin.com/in/",
+      instagram: "https://instagram.com/"
     }
   ];
 
