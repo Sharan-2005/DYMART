@@ -4,72 +4,79 @@ import ProductCard from "@/components/ProductCard";
 import CategoryCard from "@/components/CategoryCard";
 import { ArrowRight, Zap, Shield, Truck, RotateCcw } from "lucide-react";
 import heroBanner from "@/assets/hero-banner.jpg";
-
 const Home = () => {
-  const featuredProducts = [
-    {
-      id: "1",
-      name: "Samsung Galaxy S23 Ultra (256 GB) - Phantom Black",
-      image: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png",
-      originalPrice: 124999,
-      salePrice: 89999,
-      discount: 28,
-      rating: 4.5,
-      reviews: 1847
-    },
-    {
-      id: "2", 
-      name: "Apple iPhone 15 Pro (128 GB) - Natural Titanium",
-      image: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png",
-      originalPrice: 134900,
-      salePrice: 119900,
-      discount: 11,
-      rating: 4.8,
-      reviews: 956
-    },
-    {
-      id: "3",
-      name: "OnePlus 11 5G (128 GB) - Eternal Green", 
-      image: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png",
-      originalPrice: 56999,
-      salePrice: 49999,
-      discount: 12,
-      rating: 4.3,
-      reviews: 2341
-    },
-    {
-      id: "4",
-      name: "Google Pixel 8 Pro (256 GB) - Obsidian",
-      image: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png", 
-      originalPrice: 106999,
-      salePrice: 84999,
-      discount: 21,
-      rating: 4.6,
-      reviews: 743
-    },
-    {
-      id: "5",
-      name: "Xiaomi 13 Pro (256 GB) - Ceramic Black",
-      image: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png",
-      originalPrice: 79999,
-      salePrice: 64999,
-      discount: 19,
-      rating: 4.4,
-      reviews: 1256
-    }
-  ];
-
-  const categories = [
-    { name: "Electronics", icon: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png", itemCount: 1520 },
-    { name: "Fashion", icon: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png", itemCount: 850 },
-    { name: "Home & Living", icon: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png", itemCount: 640 },
-    { name: "Beauty", icon: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png", itemCount: 480 },
-    { name: "Groceries", icon: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png", itemCount: 920 },
-    { name: "Books", icon: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png", itemCount: 380 }
-  ];
-
-  return (
-    <div className="min-h-screen">
+  const featuredProducts = [{
+    id: "1",
+    name: "Samsung Galaxy S23 Ultra (256 GB) - Phantom Black",
+    image: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png",
+    originalPrice: 124999,
+    salePrice: 89999,
+    discount: 28,
+    rating: 4.5,
+    reviews: 1847
+  }, {
+    id: "2",
+    name: "Apple iPhone 15 Pro (128 GB) - Natural Titanium",
+    image: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png",
+    originalPrice: 134900,
+    salePrice: 119900,
+    discount: 11,
+    rating: 4.8,
+    reviews: 956
+  }, {
+    id: "3",
+    name: "OnePlus 11 5G (128 GB) - Eternal Green",
+    image: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png",
+    originalPrice: 56999,
+    salePrice: 49999,
+    discount: 12,
+    rating: 4.3,
+    reviews: 2341
+  }, {
+    id: "4",
+    name: "Google Pixel 8 Pro (256 GB) - Obsidian",
+    image: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png",
+    originalPrice: 106999,
+    salePrice: 84999,
+    discount: 21,
+    rating: 4.6,
+    reviews: 743
+  }, {
+    id: "5",
+    name: "Xiaomi 13 Pro (256 GB) - Ceramic Black",
+    image: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png",
+    originalPrice: 79999,
+    salePrice: 64999,
+    discount: 19,
+    rating: 4.4,
+    reviews: 1256
+  }];
+  const categories = [{
+    name: "Electronics",
+    icon: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png",
+    itemCount: 1520
+  }, {
+    name: "Fashion",
+    icon: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png",
+    itemCount: 850
+  }, {
+    name: "Home & Living",
+    icon: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png",
+    itemCount: 640
+  }, {
+    name: "Beauty",
+    icon: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png",
+    itemCount: 480
+  }, {
+    name: "Groceries",
+    icon: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png",
+    itemCount: 920
+  }, {
+    name: "Books",
+    icon: "/lovable-uploads/e6013bbc-3b46-4842-84f2-2c7e2ab0ecf7.png",
+    itemCount: 380
+  }];
+  return <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative bg-gradient-hero text-white overflow-hidden">
         <div className="container mx-auto px-4 py-16">
@@ -98,11 +105,7 @@ const Home = () => {
               </div>
             </div>
             <div className="relative">
-              <img
-                src={heroBanner}
-                alt="Smart Devices"
-                className="w-full h-auto rounded-lg shadow-2xl"
-              />
+              <img src={heroBanner} alt="Smart Devices" className="w-full h-auto rounded-lg shadow-2xl" />
               <div className="absolute -bottom-4 -right-4 bg-sale text-sale-foreground p-4 rounded-lg shadow-lg">
                 <p className="text-sm font-semibold">Save up to</p>
                 <p className="text-2xl font-bold">₹50,000</p>
@@ -159,14 +162,7 @@ const Home = () => {
             </Button>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-            {categories.map((category) => (
-              <CategoryCard
-                key={category.name}
-                name={category.name}
-                icon={category.icon}
-                itemCount={category.itemCount}
-              />
-            ))}
+            {categories.map(category => <CategoryCard key={category.name} name={category.name} icon={category.icon} itemCount={category.itemCount} />)}
           </div>
         </div>
       </section>
@@ -185,34 +181,13 @@ const Home = () => {
             </Button>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
-            {featuredProducts.map((product) => (
-              <ProductCard key={product.id} {...product} />
-            ))}
+            {featuredProducts.map(product => <ProductCard key={product.id} {...product} />)}
           </div>
         </div>
       </section>
 
       {/* Newsletter */}
-      <section className="py-16 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Stay Updated with DY MART</h2>
-          <p className="text-xl text-primary-foreground/80 mb-8">
-            Get the latest deals, new arrivals, and exclusive offers delivered to your inbox.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3 rounded-lg text-foreground"
-            />
-            <Button className="bg-white text-primary hover:bg-white/90">
-              Subscribe
-            </Button>
-          </div>
-        </div>
-      </section>
-    </div>
-  );
+      
+    </div>;
 };
-
 export default Home;

@@ -1,9 +1,7 @@
 import { Link } from "react-router-dom";
 import { Facebook, Twitter, Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-primary text-primary-foreground mt-16">
+  return <footer className="bg-primary text-primary-foreground mt-16">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -18,12 +16,7 @@ const Footer = () => {
               Your one-stop destination for electronics, fashion, home essentials, and groceries. 
               Quality products at unbeatable prices.
             </p>
-            <div className="flex space-x-3">
-              <Facebook className="w-5 h-5 hover:text-accent cursor-pointer transition-colors" />
-              <Twitter className="w-5 h-5 hover:text-accent cursor-pointer transition-colors" />
-              <Instagram className="w-5 h-5 hover:text-accent cursor-pointer transition-colors" />
-              <Youtube className="w-5 h-5 hover:text-accent cursor-pointer transition-colors" />
-            </div>
+            
           </div>
 
           {/* Quick Links */}
@@ -40,37 +33,18 @@ const Footer = () => {
 
           {/* Customer Service */}
           <div>
-            <h3 className="font-semibold mb-4">Customer Service</h3>
+            
             <ul className="space-y-2 text-sm">
-              <li><Link to="/" className="text-primary-foreground/80 hover:text-white transition-colors">Help Center</Link></li>
-              <li><Link to="/" className="text-primary-foreground/80 hover:text-white transition-colors">Track Your Order</Link></li>
-              <li><Link to="/" className="text-primary-foreground/80 hover:text-white transition-colors">Returns & Exchanges</Link></li>
-              <li><Link to="/" className="text-primary-foreground/80 hover:text-white transition-colors">Shipping Info</Link></li>
-              <li><Link to="/" className="text-primary-foreground/80 hover:text-white transition-colors">Privacy Policy</Link></li>
+              
+              
+              
+              
+              
             </ul>
           </div>
 
           {/* Contact Info */}
-          <div>
-            <h3 className="font-semibold mb-4">Contact Us</h3>
-            <div className="space-y-3 text-sm">
-              <div className="flex items-center gap-3">
-                <Phone className="w-4 h-4" />
-                <span className="text-primary-foreground/80">1800-123-4567</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <Mail className="w-4 h-4" />
-                <span className="text-primary-foreground/80">support@dymart.com</span>
-              </div>
-              <div className="flex items-start gap-3">
-                <MapPin className="w-4 h-4 mt-0.5" />
-                <span className="text-primary-foreground/80">
-                  123 Commerce Street<br />
-                  Tech City, TC 12345
-                </span>
-              </div>
-            </div>
-          </div>
+          
         </div>
 
         <div className="border-t border-white/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
@@ -82,8 +56,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;

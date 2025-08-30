@@ -2,17 +2,10 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Search, ShoppingCart, User, Menu, Heart } from "lucide-react";
 import { Link } from "react-router-dom";
-
 const Header = () => {
-  return (
-    <header className="bg-card border-b border-border sticky top-0 z-50">
+  return <header className="bg-card border-b border-border sticky top-0 z-50">
       {/* Top Bar */}
-      <div className="bg-primary text-primary-foreground py-2">
-        <div className="container mx-auto px-4 text-center text-sm">
-          Welcome to DY MART • Free shipping on orders above ₹999 • 
-          <span className="font-medium ml-1">Download Our App</span>
-        </div>
-      </div>
+      
 
       {/* Main Header */}
       <div className="container mx-auto px-4 py-4">
@@ -31,10 +24,7 @@ const Header = () => {
           <div className="flex-1 max-w-2xl mx-8">
             <div className="relative">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-5 h-5" />
-              <Input
-                placeholder="Search essentials, groceries and more..."
-                className="pl-10 pr-4 py-3 rounded-lg border-2 focus:border-primary"
-              />
+              <Input placeholder="Search essentials, groceries and more..." className="pl-10 pr-4 py-3 rounded-lg border-2 focus:border-primary" />
             </div>
           </div>
 
@@ -88,8 +78,6 @@ const Header = () => {
           </div>
         </div>
       </nav>
-    </header>
-  );
+    </header>;
 };
-
 export default Header;
