@@ -9,27 +9,27 @@ const About = () => {
       name: "Sharan Suvarna",
       role: "Btech IT",
       rollNumber: "23IT1014",
-      image: "/images/sharan.jpg", // Changed this
-      github: "https://github.com/",
-      linkedin: "https://linkedin.com/in/",
-      instagram: "https://instagram.com/"
+      image: "/images/sharan.jpg", 
+      github: "https://github.com/Sharan-2005",
+      linkedin: "https://www.linkedin.com/in/sharan-suvarna-043128289/",
+      instagram: "https://www.instagram.com/sharan_suvarna2005/"
     },
     {
       id: 2,
       name: "Vishal Tilokani", 
       role: "Btech IT",
       rollNumber: "23IT1030",
-      image: "/images/vishal.jpg", // Changed this
-      github: "https://github.com/",
-      linkedin: "https://linkedin.com/in/",
-      instagram: "https://instagram.com/"
+      image: "/images/vishal.jpg", 
+      github: "https://github.com/vishaltilokani",
+      linkedin: "https://www.linkedin.com/in/vishal-tilokani-55b934282/",
+      instagram: "https://www.instagram.com/wanderinglupine/"
     },
     {
       id: 3,
       name: "Vinit Yadav",
       role: "Btech IT",
       rollNumber: "23IT1037", 
-      image: "/images/person.jpg", // Changed this
+      image: "/images/person.jpg", 
       github: "https://github.com/",
       linkedin: "https://linkedin.com/in/",
       instagram: "https://instagram.com/"
@@ -39,7 +39,7 @@ const About = () => {
       name: "Vedant Gadhave",
       role: "Btech IT",
       rollNumber: "23IT1062",
-      image: "/images/person.jpg", // Changed this
+      image: "/images/person.jpg", 
       github: "https://github.com/",
       linkedin: "https://linkedin.com/in/",
       instagram: "https://instagram.com/"
