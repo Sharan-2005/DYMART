@@ -28,6 +28,16 @@ const ProductCard = ({ id, name, price, discountPrice, image, rating }: ProductC
 
   const discount = discountPrice ? Math.round(((price - discountPrice) / price) * 100) : 0;
 
+  // Format price in Indian Rupees
+  const formatINR = (amount: number) => {
+    return new Intl.NumberFormat('en-IN', {
+      style: 'currency',
+      currency: 'INR',
+      minimumFractionDigits: 0,
+      maximumFractionDigits: 0
+    }).format(amount);
+  };
+
   return (
     <Card className="group hover:shadow-hover transition-all duration-300 cursor-pointer overflow-hidden">
       <div className="relative overflow-hidden">
@@ -50,11 +60,11 @@ const ProductCard = ({ id, name, price, discountPrice, image, rating }: ProductC
         
         <div className="flex items-center gap-2 mb-3">
           <span className="text-lg font-bold text-primary">
-            ${discountPrice || price}
+            {formatINR(discountPrice || price)}
           </span>
           {discountPrice && (
             <span className="text-sm text-muted-foreground line-through">
-              ${price}
+              {formatINR(price)}
             </span>
           )}
         </div>

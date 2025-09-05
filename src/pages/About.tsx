@@ -9,7 +9,7 @@ const About = () => {
       name: "Sharan Suvarna",
       role: "Btech IT",
       rollNumber: "23IT1014",
-      image: "src/assets/person.jpg",
+      image: "/images/sharan.jpg", // Changed this
       github: "https://github.com/",
       linkedin: "https://linkedin.com/in/",
       instagram: "https://instagram.com/"
@@ -19,7 +19,7 @@ const About = () => {
       name: "Vishal Tilokani", 
       role: "Btech IT",
       rollNumber: "23IT1030",
-      image: "src/assets/person.jpg",
+      image: "/images/vishal.jpg", // Changed this
       github: "https://github.com/",
       linkedin: "https://linkedin.com/in/",
       instagram: "https://instagram.com/"
@@ -29,7 +29,7 @@ const About = () => {
       name: "Vinit Yadav",
       role: "Btech IT",
       rollNumber: "23IT1037", 
-      image: "src/assets/person.jpg",
+      image: "/images/person.jpg", // Changed this
       github: "https://github.com/",
       linkedin: "https://linkedin.com/in/",
       instagram: "https://instagram.com/"
@@ -39,13 +39,12 @@ const About = () => {
       name: "Vedant Gadhave",
       role: "Btech IT",
       rollNumber: "23IT1062",
-      image: "src/assets/person.jpg",
+      image: "/images/person.jpg", // Changed this
       github: "https://github.com/",
       linkedin: "https://linkedin.com/in/",
       instagram: "https://instagram.com/"
     }
   ];
-
   const stats = [
     { icon: Users, value: "10K+", label: "Happy Customers" },
     { icon: Target, value: "500+", label: "Products" },
@@ -78,7 +77,7 @@ const About = () => {
                 recommendations that make shopping effortless and enjoyable.
               </p>
               <p className="text-lg text-muted-foreground mb-8">
-                Built with modern technologies including React, Flask, and Firebase, 
+                Built with modern technologies including React-Vite, TypeScript, and Supabase, 
                 our platform ensures fast, secure, and reliable shopping experiences 
                 for customers across multiple categories.
               </p>
@@ -198,34 +197,34 @@ const About = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <Card className="p-6 text-center hover:shadow-hover transition-all duration-300">
               <div className="w-16 h-16 bg-gradient-primary rounded-lg flex items-center justify-center mx-auto mb-4">
-                <span className="text-white font-bold text-2xl">R</span>
+                <span className="text-white font-bold text-2xl">VITE</span>
               </div>
-              <h3 className="font-semibold mb-2">React</h3>
+              <h3 className="font-semibold mb-2">React-Vite</h3>
               <p className="text-sm text-muted-foreground">Frontend Framework</p>
             </Card>
             
             <Card className="p-6 text-center hover:shadow-hover transition-all duration-300">
               <div className="w-16 h-16 bg-success rounded-lg flex items-center justify-center mx-auto mb-4">
-                <span className="text-success-foreground font-bold text-2xl">F</span>
+                <span className="text-success-foreground font-bold text-2xl">TS</span>
               </div>
-              <h3 className="font-semibold mb-2">Flask</h3>
+              <h3 className="font-semibold mb-2">TypeScript</h3>
               <p className="text-sm text-muted-foreground">Backend API</p>
             </Card>
             
             <Card className="p-6 text-center hover:shadow-hover transition-all duration-300">
               <div className="w-16 h-16 bg-warning rounded-lg flex items-center justify-center mx-auto mb-4">
-                <span className="text-warning-foreground font-bold text-2xl">F</span>
+                <span className="text-warning-foreground font-bold text-2xl">SB</span>
               </div>
-              <h3 className="font-semibold mb-2">Firebase</h3>
+              <h3 className="font-semibold mb-2">Supabase</h3>
               <p className="text-sm text-muted-foreground">Database & Auth</p>
             </Card>
             
             <Card className="p-6 text-center hover:shadow-hover transition-all duration-300">
               <div className="w-16 h-16 bg-sale rounded-lg flex items-center justify-center mx-auto mb-4">
-                <span className="text-sale-foreground font-bold text-2xl">ML</span>
+                <span className="text-sale-foreground font-bold text-2xl">SIGN</span>
               </div>
-              <h3 className="font-semibold mb-2">Machine Learning</h3>
-              <p className="text-sm text-muted-foreground">Recommendations</p>
+              <h3 className="font-semibold mb-2">User Authentication</h3>
+              <p className="text-sm text-muted-foreground">Sign in and Sign up</p>
             </Card>
           </div>
         </div>
