@@ -29,25 +29,25 @@ const About = () => {
       name: "Vinit Yadav",
       role: "Btech IT",
       rollNumber: "23IT1037", 
-      image: "/images/person.jpg", 
-      github: "https://github.com/",
-      linkedin: "https://linkedin.com/in/",
-      instagram: "https://instagram.com/"
+      image: "/images/vinit.jpg", 
+      github: "https://github.com/vinittyadav",
+      linkedin: "https://www.linkedin.com/in/vinit-yadav-487063289/",
+      instagram: "https://www.instagram.com/vinittt.4149/"
     },
     {
       id: 4,
       name: "Vedant Gadhave",
       role: "Btech IT",
       rollNumber: "23IT1062",
-      image: "/images/person.jpg", 
-      github: "https://github.com/",
-      linkedin: "https://linkedin.com/in/",
-      instagram: "https://instagram.com/"
+      image: "/images/vedant.jpg", 
+      github: "https://github.com/Vedant100730",
+      linkedin: "https://www.linkedin.com/in/vedant-gadhave-555809288/",
+      instagram: "https://www.instagram.com/ve.dant_300/"
     }
   ];
   const stats = [
-    { icon: Users, value: "10K+", label: "Happy Customers" },
-    { icon: Target, value: "500+", label: "Products" },
+    { icon: Users, value: "10+", label: "Happy Customers" },
+    { icon: Target, value: "20+", label: "Products" },
     { icon: Award, value: "99%", label: "Satisfaction Rate" }
   ];
 

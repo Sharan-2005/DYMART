@@ -39,11 +39,11 @@ const CartSidebar = () => {
                       <h4 className="font-medium text-sm">{item.product.name}</h4>
                       <div className="flex items-center gap-2 mt-1">
                         <span className="font-semibold text-primary">
-                          ${item.product.discount_price || item.product.price}
+                          ₹{item.product.discount_price || item.product.price}
                         </span>
                         {item.product.discount_price && (
                           <span className="text-xs text-muted-foreground line-through">
-                            ${item.product.price}
+                            ₹{item.product.price}
                           </span>
                         )}
                       </div>
@@ -87,7 +87,7 @@ const CartSidebar = () => {
               <div className="flex justify-between items-center mb-4">
                 <span className="text-lg font-semibold">Total:</span>
                 <span className="text-2xl font-bold text-primary">
-                  ${getTotal().toFixed(2)}
+                  ₹{getTotal().toFixed(2)}
                 </span>
               </div>
               <Link to="/checkout">
