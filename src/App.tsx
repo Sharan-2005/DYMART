@@ -14,7 +14,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import CartSidebar from "./components/CartSidebar";
 import NotFound from "./pages/NotFound";
-
+import OrdersPage  from "./pages/OrdersPage";
+import ProfilePage from "./pages/ProfilePage";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -34,6 +35,8 @@ const App = () => (
                   <Route path="/auth" element={<Auth />} />
                   <Route path="/category/:slug" element={<Category />} />
                   <Route path="/checkout" element={<Checkout />} />
+                  <Route path="/orders"  element={<OrdersPage />}  />
+                  <Route path="/profile" element={<ProfilePage />} />
                   {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                   <Route path="*" element={<NotFound />} />
                 </Routes>
